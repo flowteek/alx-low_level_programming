@@ -2,11 +2,13 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - data entry point
- * Description: storing variables with different values
- * Return: is zero (successful)
- */ 
- int main(void)
+ *main - data entry point
+ *
+ *Description: storing variables with different values
+ *
+ *Return: is zero (successful)
+ */
+int main(void)
 {
 	int n;
 	int last;
