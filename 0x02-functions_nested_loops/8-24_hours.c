@@ -2,7 +2,7 @@
 
 /**
  * main - every minute of the day
- * jack_bauer -prints every minute of the day
+ *Description: jack_baurer every minute of the day
  *
  * Return: Always 0.
  */
