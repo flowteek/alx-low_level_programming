@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * print_line - prints a line
@@ -13,8 +15,8 @@ void print_line(int n)
 
 	while (a < n && n > 0)
 	{
-		_putchar('_');
+		putchar('_');
 		a++;
 	}
-	_putchar('\n');
+	putchar('\n');
 }
