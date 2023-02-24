@@ -1,3 +1,9 @@
+/*
+ * File: 4-print_most_numbers.c
+ * Auth: Ogunbanjo Samuel
+ */
+
+
 #include "main.h"
 
 /**
