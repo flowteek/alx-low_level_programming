@@ -1,4 +1,5 @@
-include "main.h"
+#include "main.h"
+
 /**
  * isadigit - check for a digit 0 through 9
  * @c: input number
