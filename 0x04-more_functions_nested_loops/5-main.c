@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 /**
  * main - check the code
@@ -9,5 +7,6 @@
  */
 int main(void)
 {
+    more_numbers();
     return (0);
 }
