@@ -1,27 +1,21 @@
-/*
- * File: 4-print_most_numbers.c
- * Auth: Ogunbanjo Samuel
- */
-
-
 #include "main.h"
+#include <stdio.h>
 
 /**
- *print_most_numbers - prints the numbers, from 0 to 9, without printing 2 & 4
- *Return: Always zero.
-**/
-
+ * print_most_numbers - Print numbers between 0 to 9 incl.
+ *
+ * Return: Void.
+ */
 void print_most_numbers(void)
 {
 	int i;
 
-	for (i = '0'; i <= '9'; i++)
+	for (i = 0; i < 10; i++)
 	{
-		if (i != '2' && i != '4')
+		if (i != 2 && i != 4)
 		{
-			_putchar(i);
+			_putchar(i + '0');
 		}
 	}
-
 	_putchar('\n');
 }
