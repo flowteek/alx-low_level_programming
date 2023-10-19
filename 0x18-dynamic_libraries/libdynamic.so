@@ -1,20 +1,32 @@
-int _putchar(char c);
-int _islower(int c);
-int _isalpha(int c);
-int _abs(int n);
-int _isupper(int c);
-int _isdigit(int c);
-int _strlen(char *s);
-void _puts(char *s);
-char *_strcpy(char *dest, char *src);
-int _atoi(char *s);
-char *_strcat(char *dest, char *src);
-char *_strncat(char *dest, char *src, int n);
-char *_strncpy(char *dest, char *src, int n);
-int _strcmp(char *s1, char *s2);
-char *_memset(char *s, char b, unsigned int n);
-char *_memcpy(char *dest, char *src, unsigned int n);
-char *_strchr(char *s, char c);
-unsigned int _strspn(char *s, char *accept);
-char *_strpbrk(char *s, char *accept);
-char *_strstr(char *haystack, char *needle);
+0000000000001114 T _abs
+0000000000000b60 T _atoi
+0000000000202050 B __bss_start
+                 w __cxa_finalize
+0000000000202050 D _edata
+0000000000202058 B _end
+00000000000011b0 T _fini
+                 w __gmon_start__
+00000000000008f0 T _init
+0000000000000fed T _isalpha
+0000000000000c69 T _isdigit
+0000000000000e69 T _islower
+0000000000000a5a T _isupper
+                 w _ITM_deregisterTMCloneTable
+                 w _ITM_registerTMCloneTable
+0000000000000a7b T main
+0000000000000c8a T _memcpy
+0000000000000aa5 T _memset
+                 U printf
+0000000000001188 T _putchar
+0000000000000e8a T _puts
+0000000000000ae0 T _strcat
+0000000000000d52 T _strchr
+0000000000000ee6 T _strcmp
+000000000000112d T _strcpy
+0000000000000dc0 T _strlen
+0000000000000ccd T _strncat
+0000000000000dee T _strncpy
+000000000000101a T _strpbrk
+0000000000000f69 T _strspn
+0000000000001093 T _strstr
+                 U write
